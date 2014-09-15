@@ -57,6 +57,7 @@ CREATE TABLE [dbo].[Events] (
 	[Path] [varchar](1024) NOT NULL,
 	[CreateDate] [datetime] NOT NULL,
 	[LastModifiedDate] [datetime] NOT NULL,
+	[Is_ReadOnly] [bit] NOT NULL,
 	[Active] [bit] NOT NULL,
  CONSTRAINT [PK_Events] PRIMARY KEY CLUSTERED 
 (
