@@ -39,3 +39,6 @@ GO
 
 EXEC [meta].[Create_Relations]
 GO
+
+EXEC [meta].[Create_Attributes]
+GO
